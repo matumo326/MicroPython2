@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	Split(['#one', '#three'], {
 		sizes: [40, 60],
 		// gutterSize: 12,	
-		minSize: [window.innerWidth * 0.36, window.innerWidth * 0.3]
+		minSize: [window.innerWidth * 0.34, window.innerWidth * 0.3]
 	});
 
 	Split(['#one1', '#one2'], {
