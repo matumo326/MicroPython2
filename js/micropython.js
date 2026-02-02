@@ -12,7 +12,7 @@ var editor;
 
 document.addEventListener("DOMContentLoaded", function (event) {
 	Split(['#one', '#three'], {
-		sizes: [45, 55],
+		sizes: [40, 60],
 		// gutterSize: 12,	
 		minSize: [window.innerWidth * 0.41, window.innerWidth * 0.3]
 	});
@@ -338,6 +338,7 @@ function text_open() {
 	window.open("2025工学基礎演習テキスト.pdf", "_blank", "width=1000,height=760,toolbar=yes,menubar=yes,scrollbars=yes")
 
 }
+
 
 
 
